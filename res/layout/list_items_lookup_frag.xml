@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/list_item_bg_float" 
+    >
+
+	<RelativeLayout
+	    android:id="@+id/frag_items_simple"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    >
+
+	    <ImageView
+	        android:id="@+id/frag_itemsIcon"
+	        android:src="@drawable/lable"
+	        android:layout_width="20dip"
+	        android:layout_height="50dip"
+	        android:layout_alignParentLeft="true"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginLeft="5dip"
+	        android:layout_marginTop="5dip"
+	        android:paddingBottom="2dip"
+	        android:scaleType="fitXY" />
+	
+	    <ImageView
+        android:id="@+id/frag_btn_expand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@drawable/expander_open_holo_dark" 
+        android:layout_marginTop="12dp"/>
+    
+	    <TextView
+	        android:id="@+id/frag_itemsTitle"
+	        android:text="@string/hello_world"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_toRightOf="@+id/frag_itemsIcon"
+	        android:layout_toLeftOf="@+id/frag_btn_expand"
+	        android:paddingLeft="10dip"
+	        android:paddingTop="5dip"
+	        android:textColor="@color/gray_black"
+	        android:textSize="18dip" />
+
+	    
+	</RelativeLayout> 
+	
+	<RelativeLayout
+	    android:id="@+id/frag_items_complex"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:background="@drawable/bubble_2" 
+	    android:layout_below="@+id/frag_items_simple"
+	    android:layout_marginTop="2dp"
+	    android:layout_marginBottom="2dp"
+	    android:paddingBottom="5dp"
+	    >
+		<LinearLayout
+		    android:id="@+id/frag_items_expand"
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_margin="2dp"
+		    >
+		</LinearLayout>
+    
+	</RelativeLayout> 
+
+</RelativeLayout>

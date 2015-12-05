@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_prop_identity" android:layout_width="match_parent"
+	android:layout_height="wrap_content" android:shrinkColumns="*"
+	android:stretchColumns="*" android:padding="5dp" android:background="@color/white">
+	<TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_first"
+			style="@style/style_chm_info" android:layout_column="0" ></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow2" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:text="" android:id="@+id/prop_phychemattr_first" android:layout_span="2"
+			style="@style/style_chm_info" ></TextView>
+		<!--  android:layout_column="0" android:layout_span="2" -->
+	</TableRow>
+	<TableRow android:id="@+id/tableRow3" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_second"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_phychemattr_second"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow3" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_third"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_phychemattr_third"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow4" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_fourth"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_phychemattr_fourth"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow4" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_fifth"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_phychemattr_fifth"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow5" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_sixth"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_phychemattr_sixth"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow5" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_seventh"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_phychemattr_seventh"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow6" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_eighth"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow5" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:text="" android:id="@+id/prop_phychemattr_eighth" android:layout_span="2" 
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow7" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_ninth"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_phychemattr_ninth"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow8" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_tenth"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow9" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:text="" android:id="@+id/prop_phychemattr_tenth" android:layout_span="2" 
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow10" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_ten_first"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_phychemattr_ten_first"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow11" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_ten_second"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_phychemattr_ten_second"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow11" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_ten_third"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_phychemattr_ten_third"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow12" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_ten_fourth"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_phychemattr_ten_fourth"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow13" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_ten_fifth"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_phychemattr_ten_fifth"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow14" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_ten_sixth"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_phychemattr_ten_sixth"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow14" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_ten_seventh"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_phychemattr_ten_seventh"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow15" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_ten_eighth"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_phychemattr_ten_eighth"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow15" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_ten_ninth"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_phychemattr_ten_ninth"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow16" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_twentith"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow5" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:text="" android:id="@+id/prop_phychemattr_twentith" android:layout_span="2" 
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow17" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_twenty_first"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow18" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:text="" android:id="@+id/prop_phychemattr_twenty_first" android:layout_span="2" 
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow19" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_phychemattr_twenty_second"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow20" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:text="" android:id="@+id/prop_phychemattr_twenty_second" android:layout_span="2" 
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+
+</TableLayout>    

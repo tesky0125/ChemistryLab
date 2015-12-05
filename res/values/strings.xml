@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<string name="hello_world">Hello world!</string>
+	
+    <string name="app_name">危险品应急处置</string>
+        
+    <string name="total">总条数:0</string> 
+    <string name="current">当前页:1</string>
+    
+    <string name="db_name">chemistry</string>
+    <string name="search_hint">请输入</string>
+    
+    <string name="search_by_un">按UN编号</string>
+    <string name="search_by_cn">按CN编号</string>
+    <string name="search_by_cas">按CAS编号</string>
+    <string name="search_by_chname">按中文名</string>
+    
+    <string name="search_by_name">按姓名</string>
+    <string name="search_by_workplace">按单位</string>
+    
+    <string name="search_by_leakname">按泄漏货种</string>
+    <string name="search_by_type">按物质类别</string>
+    <string name="search_by_addr">按泄漏地点	</string>
+    <string name="search_by_src">按泄漏源头</string>
+    
+    <!-- 0.main ui -->
+    <string name="main_first_btn">化学品查询</string>
+    <string name="main_second_btn">应急预案</string>
+    <string name="main_third_btn">应急处置措施</string>
+    <string name="main_fourth_btn">关于</string>
+    
+    <!-- emplan ui -->
+    <string name="emplan">应急预案</string>
+    <string name="emplan_first_btn">应急预案指南</string>
+    <string name="emplan_second_btn">应急通信</string>
+    
+    <!-- 1.化学品查询 -->
+    <string name="lookup_first">危险品属性</string>
+    <string name="lookup_second">日常监管</string>
+    <string name="lookup_third">现场应急措施</string>
+    <string name="lookup_fourth">应急救援指南</string>
+    
+    <!-- 1.1危险品属性 -->
+    <string name="prop_first">化学品标识</string>
+    <string name="prop_second">理化特性</string>
+    <string name="prop_third">危险性描述</string>
+    
+    <string name="prop_fourth">消防措施</string>
+    <string name="prop_fifth_1">泄露应急处理</string>
+    <string name="prop_fifth_2">泄露距离</string>
+    <string name="prop_sixth">急救措施</string>
+    
+    <!-- 1.2日常监管 -->
+    <string name="supervison_first">存储注意事项</string>
+    <string name="supervison_second">操作注意事项</string>
+    
+    <!-- 1.3现场应急措施 -->
+    <!-- 由于与1.1中内容重复，将1.1中后四个移至1.3 -->
+    <!-- <string name="emmeans_first">危险特性</string>
+    <string name="emmeans_second">人员救护</string>
+    <string name="emmeans_third">有害物燃烧</string>
+    <string name="emmeans_fourth">初始隔离与防护距离</string>
+    <string name="emmeans_fifth">应急措施(火灾/泄露)</string> -->
+    
+    <!-- 1.4应急救援指南 -->
+    <string name="guide_first">健康威胁</string>
+    <string name="guide_second">火灾或爆炸</string>
+    <string name="guide_third">应急反应</string>
+    <string name="guide_fourth">防护</string>
+    <string name="guide_fifth">现场疏散</string>
+    <string name="guide_sixth">火灾措施</string>
+    <string name="guide_seventh">泄露</string>
+    <string name="guide_eighth">急救</string>
+    
+    <!-- 1.1.1化学品标识 -->
+    <string name="prop_identity_first">中文名称</string>
+    <string name="prop_identity_second">中文别名</string>
+    <string name="prop_identity_third">英文名称</string>
+    <string name="prop_identity_fourth">英文别名</string>
+    <string name="prop_identity_fifth">CAS编号</string>
+    <string name="prop_identity_sixth">UN编号</string>
+    <string name="prop_identity_seventh">危险CN编号</string>
+    <string name="prop_identity_eighth">RTECS编号</string>
+    <string name="prop_identity_ninth">ICSC编号</string>
+    <string name="prop_identity_tenth">EC编号</string>
+    
+    <!-- 1.1.2理化特性 -->
+    <string name="prop_phychemattr_first">外观与形状</string>
+    <string name="prop_phychemattr_second">分子式</string>
+    <string name="prop_phychemattr_third">分子量</string>
+    <string name="prop_phychemattr_fourth">PH值</string>
+    <string name="prop_phychemattr_fifth">熔点</string>
+    <string name="prop_phychemattr_sixth">相对密度\n(水=1)</string>
+    <string name="prop_phychemattr_seventh">沸点</string>
+    <string name="prop_phychemattr_eighth">溶解度</string>
+    <string name="prop_phychemattr_ninth">蒸汽密度</string>
+    <string name="prop_phychemattr_tenth">主要成分</string>
+    <string name="prop_phychemattr_ten_first">饱和蒸汽压</string>
+    <string name="prop_phychemattr_ten_second">燃烧热</string>
+    <string name="prop_phychemattr_ten_third">临界温度</string>
+    <string name="prop_phychemattr_ten_fourth">临界压力</string>
+    <string name="prop_phychemattr_ten_fifth">辛醇/水分配比系数\n的对数值</string>
+    <string name="prop_phychemattr_ten_sixth">闪点</string>
+    <string name="prop_phychemattr_ten_seventh">爆炸上限</string>
+    <string name="prop_phychemattr_ten_eighth">爆炸下限</string>
+    <string name="prop_phychemattr_ten_ninth">引燃温度</string>
+    <string name="prop_phychemattr_twentith">溶解性</string>
+    <string name="prop_phychemattr_twenty_first">其他特性</string>
+    <string name="prop_phychemattr_twenty_second">主要用途</string>
+    
+    <!-- 1.1.3危险性描述 -->
+    <string name="prop_dangerdesc_first">主要危险性类别</string>
+    <string name="prop_dangerdesc_second">副危险性类别</string>
+    <string name="prop_dangerdesc_third">侵入途径</string>
+    <string name="prop_dangerdesc_fourth">健康危害</string>
+    <string name="prop_dangerdesc_fifth">环境危害</string>
+    <string name="prop_dangerdesc_sixth">燃爆危险</string>
+    
+    <string name="prop_dangertypepic_first">主要危险性类别</string>
+    <string name="prop_dangertypepic_second">副危险性类别</string>
+    
+    <!-- 1.1.4消防措施 -->
+    <string name="prop_firemeans_first">危险特性</string>
+    <string name="prop_firemeans_second">有害物燃烧产物</string>
+    <string name="prop_firemeans_third">灭火方法</string>
+    
+    <!-- 1.1.5_1泄露应急处理 -->
+    <string name="prop_leakemmeans_tenth">应急处理</string>
+    
+    <!-- 1.1.5_2泄露距离 -->
+    <!-- <string name="prop_leakemmeans_first">泄露距离</string> -->
+    <string name="prop_leakemmeans_second">少量泄露</string>
+    <string name="prop_leakemmeans_third">初始泄露距离</string>
+    <string name="prop_leakemmeans_fourth">防护距离(白天)</string>
+    <string name="prop_leakemmeans_fifth">防护距离(夜晚)</string>
+    <string name="prop_leakemmeans_sixth">大量泄露</string>
+    <string name="prop_leakemmeans_seventh">初始泄露距离</string>
+    <string name="prop_leakemmeans_eighth">防护距离(白天)</string>
+    <string name="prop_leakemmeans_ninth">防护距离(夜晚)</string>
+    
+    <!-- 1.1.6急救措施 -->
+    <string name="prop_emmeans_first">皮肤接触</string>
+    <string name="prop_emmeans_second">眼睛接触</string>
+    <string name="prop_emmeans_third">吸入</string>
+    <string name="prop_emmeans_fourth">食入</string>
+    
+    <!-- 专家 -->
+    <string name="expert_first">姓名</string>
+    <string name="expert_second">性别</string>
+    <string name="expert_third">单位</string>
+    <string name="expert_fourth">年龄</string>
+    <string name="expert_fifth">专业</string>
+    <string name="expert_sixth">职务/职称</string>
+    <string name="expert_seventh">毕业院校</string>
+    <string name="expert_eighth">学历</string>
+    <string name="expert_ninth">特长</string>
+    <string name="expert_tenth">联系方式</string>
+    <string name="expert_ten_first">隶属海事局</string>
+    
+    <!--  -->
+    <string name="download_complete_title">下载完成</string>
+    <string name="undownLoad_title">未下载</string>
+    
+    <!--  -->
+    <string name="action_settings">Settings</string>
+
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="userName">请输入用户名</string>
+    <string name="userPwd">请输入密码</string>
+    <string name="error_name">请输入用户名！</string>
+    <string name="error_pwd">请输入密码！</string>
+
+    
+    <string name="err_phone">无效的手机号码</string>
+    
+    <!-- 应急预案 -->
+    <string name="text1">1 适用范围及情况</string>
+	<string name="text1_1">1.1本计划适用范围</string>
+	<string name="text1_1">1.2本计划适用情况</string>
+	<string name="text2">2 组织与管理</string>
+	<string name="text2_1">2.1 组织指挥系统</string><!-- 跳转 -->
+	<string name="text2_1_1">2.1.1岳阳港危险品泄露应急指挥部</string>
+	<string name="text2_1_1_1">（1）组成</string>
+	<string name="text2_1_1_2">（2）指挥部职责</string>
+	<string name="text2_1_1_3">（3）成员单位职责</string>
+	<string name="text2_1_1_4">（4）指挥部办公室职责</string>
+	<string name="text2_1_1_5">（5）岳阳港危险品泄露应急专家咨询组</string>
+	<string name="text2_1_2">2.1.2岳阳港危险品泄露应急现场指挥部</string>
+	<string name="text2_2">2.2危险品泄露应急队伍与设备器材</string><!-- 跳转 -->
+	<string name="text2_2_1">2.2.1危险品泄露应急队伍</string>
+	<string name="text2_2_2">2.2.2危险品泄露设备器材</string>
+	<string name="text2_3">2.3通讯系统</string><!-- 跳转 -->
+	<string name="text2_3_1">2.3.1 危险品泄露事故报告与报警通讯</string>
+	<string name="text2_3_2">2.3.2 指挥部与有关方面的通讯联络</string>
+	<string name="text2_3_2">2.3.3危险品泄露应急行动指挥通讯</string>
+	<string name="text3">3 事故报告</string>
+	<string name="text3_1">3.1危险品泄露事故报告</string><!-- 跳转 -->
+	<string name="text3_1_1">3.1.1报告者</string>
+	<string name="text3_1_2">3.1.2报告程序</string>
+	<string name="text3_1_3">3.1.3报告内容</string>
+	<string name="text3_2">3.2危险品泄露事故初始评估与初步行动</string>
+	<string name="text3_3">3.3危险品泄露事故报警与新闻发布</string>
+	<string name="text3_4">3.4危险品泄露监视与监测</string><!-- 跳转 -->
+	<string name="text3_4_1">3.4.1危险品泄露监视</string>
+	<string name="text3_4_2">3.4.2危险品泄露监测</string>
+	<string name="text3_5">3.5危险品泄露事故的进一步评估</string>
+	<string name="text3_6">3.6制订危险品泄露应急反应决策方案</string>
+	<string name="text3_7">3.7危险品泄露遏制与清除</string>
+	<string name="text3_8">3.8回收油和油污废弃物的处置</string>
+	<string name="text3_9">3.9后勤保障</string>
+    
+	<!-- 应急预案处置措施 -->
+	<string name="emplan_1">泄漏货种</string>
+	<string name="emplan_2">物质类别</string>
+	<string name="emplan_3">泄漏地点</string>
+	<string name="emplan_4">泄漏源头</string>
+	<string name="emplan_5">环境敏感目标</string>
+	<string name="emplan_6">应急设备调用</string>
+	<string name="emplan_7">船舶应急行动</string>
+	<string name="emplan_8">水面应急行动</string>
+	<string name="emplan_9">响应机制</string>
+	
+	<!-- 环境敏感目标 -->
+	<string name="ensensetarget">敏感目标</string>
+	<string name="ensensetarget_min">最短时间</string>
+	<string name="ensensetarget_max">最长时间</string>
+	<string name="ensensetarget_1">新螺自然保护区</string>
+	<string name="ensensetarget_2">洪湖纸厂取水囤船</string>
+	<string name="ensensetarget_3">洪湖磷肥厂取水囤船</string>
+	<string name="ensensetarget_4">洪湖油区取水囤船</string>
+	<string name="ensensetarget_5">道仁矶水厂取水口</string>
+	<string name="ensensetarget_6">长炼取水码头取水口</string>
+	
+	<!-- 群发短信 -->
+	<string name="sms_checkall">全部选中</string>
+    <string name="sms_uncheckall">取消全选</string>
+    <string name="sms_send">发送</string>
+    <string name="sms_cancel">取消</string>
+    
+    <string name="okBtn">确定</string>
+    <string name="cancelBtn">取消</string>
+    <string name="see">查看</string>
+    <string name="about">关于</string>
+    <string name="version_lable">程序版本：</string>
+    <string name="copyright">版权所有  CopyRight 2012 </string>
+    
+    
+    <string name="date_picker">年月日：</string>
+    <string name="time_picker1">月日时分：</string>
+    <string name="time_picker2">时分：</string>
+    <string name="data1_desc">选择：</string>
+    <string name="data1_unit">单位</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_prop_firemeans" android:layout_width="match_parent"
+	android:layout_height="wrap_content" android:shrinkColumns="*"
+	android:stretchColumns="*" android:padding="5dp" android:background="@color/white">
+	<TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_firemeans_first"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:text="" android:id="@+id/prop_firemeans_first"  android:layout_span="4" 
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow2" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_firemeans_second"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow2" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:text="" android:id="@+id/prop_firemeans_second"  android:layout_span="4" 
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow3" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_firemeans_third"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow3" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:text="" android:id="@+id/prop_firemeans_third" android:layout_span="4" 
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+
+</TableLayout>    

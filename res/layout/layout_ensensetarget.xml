@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_ensensetarget" android:layout_width="match_parent"
+	android:layout_height="wrap_content" android:shrinkColumns="1"
+	android:stretchColumns="*" android:padding="5dp" android:background="@color/white">
+	<TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/ensensetarget"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="@string/ensensetarget_min" android:id="@+id/ensensetarget_min"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="@string/ensensetarget_max" android:id="@+id/ensensetarget_max"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/ensensetarget_1"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/ensensetarget_min_1"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/ensensetarget_max_1"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow2" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/ensensetarget_2"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/ensensetarget_min_2"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/ensensetarget_max_2"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow3" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/ensensetarget_3"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/ensensetarget_min_3"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/ensensetarget_max_3"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow4" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/ensensetarget_4"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/ensensetarget_min_4"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/ensensetarget_max_4"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow5" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/ensensetarget_5"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/ensensetarget_min_5"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/ensensetarget_max_5"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow6" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/ensensetarget_6"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/ensensetarget_min_6"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/ensensetarget_max_6"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+
+</TableLayout>    

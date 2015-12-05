@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/list_item_bg_float" 
+    >
+
+    <ImageView
+        android:id="@+id/act_itemsIcon"
+        android:src="@drawable/ic_launcher"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="5dip"
+        android:paddingBottom="2dip"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/act_itemsTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_toRightOf="@+id/act_itemsIcon"
+        android:paddingLeft="10dip"
+        android:paddingTop="5dip"
+        android:text="@string/hello_world"
+        android:textColor="@color/gray_black"
+        android:textSize="18dip" />
+
+    <TextView
+        android:id="@+id/act_itemsText"
+        android:text="@string/hello_world"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/act_itemsTitle"
+        android:layout_toRightOf="@+id/act_itemsIcon"
+        android:gravity="left"
+        android:paddingBottom="2dip"
+        android:paddingLeft="10dip"
+        android:textColor="@color/gray"
+        android:textSize="15dip" />
+
+</RelativeLayout>

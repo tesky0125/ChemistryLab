@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_prop_emmeans" android:layout_width="match_parent"
+	android:layout_height="wrap_content" android:shrinkColumns="*"
+	android:stretchColumns="*" android:padding="5dp" android:background="@color/white">
+	<TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_dangertypepic_first"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_dangertypepic_second"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow2" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<ImageView
+        android:id="@+id/prop_dangertypepic_first"
+        android:src="@drawable/image_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingBottom="2dip"
+        android:scaleType="fitXY" />
+		<ImageView
+        android:id="@+id/prop_dangertypepic_second"
+        android:src="@drawable/image_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingBottom="2dip"
+        android:scaleType="fitXY" />
+	</TableRow>
+
+</TableLayout>    

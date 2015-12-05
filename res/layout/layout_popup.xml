@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:padding="5dp"
+	>
+
+    <ListView 
+				android:id="@+id/list_popup" 
+				android:layout_width="match_parent" 
+				android:layout_height="wrap_content" 
+				android:layout_marginLeft="3dp"
+				android:layout_marginRight="3dp"
+				android:padding="3dp"
+				android:divider="@drawable/list_divider"
+        		android:dividerHeight="1dip" 
+        		android:background="@drawable/list_bg_float"
+
+				/>		
+
+</LinearLayout>

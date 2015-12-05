@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+		android:id="@+id/layout_search"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="5dp" 
+	    android:background="@color/transparent"
+	    android:visibility="gone">
+	    <ImageButton
+	        android:id="@+id/btn_search"
+	        android:src="@drawable/search"
+	        android:padding="5dp"
+	        android:layout_width="80dip"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:background="@drawable/search_btn"
+	        android:scaleType="fitCenter" />
+	    <EditText
+	        android:id="@+id/edit_search"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toLeftOf="@+id/btn_search"
+	        android:layout_alignParentLeft="true"
+	        android:layout_gravity="center_horizontal|center_vertical"
+	        android:background="@drawable/edit_login" 
+	        android:layout_marginRight="10dp"
+	        android:hint="@string/search_hint"
+	        android:paddingLeft="90.0sp"
+			android:paddingRight="25.0sp"
+			/>
+	    <TextView android:id="@+id/tv_search_by"
+				android:textSize="16.0dip" 
+				android:textColor="#ff3f3f3f"
+				android:gravity="center_vertical" 
+				android:paddingLeft="5.0sp" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:layout_marginRight="15.0sp"
+				android:text="" 
+				android:layout_alignLeft="@+id/edit_search"
+				android:layout_alignTop="@+id/edit_search"
+				android:layout_alignBottom="@+id/edit_search" />
+	    <ImageButton android:id="@+id/btn_search_by"
+				android:background="@drawable/more_select" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:layout_marginRight="1.0dip"
+				android:layout_alignTop="@+id/edit_search"
+				android:layout_alignRight="@+id/edit_search"
+				android:layout_alignBottom="@+id/edit_search" />
+	    <ListView 
+				android:id="@+id/list_search_by" 
+				android:layout_width="match_parent" 
+				android:layout_height="wrap_content" 
+				android:layout_below="@+id/edit_search" 
+				android:layout_alignLeft="@+id/edit_search" 
+				android:layout_alignRight="@+id/edit_search"
+				android:layout_marginLeft="3dp"
+				android:layout_marginRight="3dp"
+				android:padding="3dp"
+				android:divider="@drawable/list_divider"
+        		android:dividerHeight="1dip" 
+        		android:background="@drawable/list_bg_float"
+        		android:visibility="gone"
+				/>		
+	
+	</RelativeLayout>

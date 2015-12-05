@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:scrollbars="vertical"
+    android:background="@color/main_background"
+    tools:context=".MainActivity" >
+    <!-- 
+        android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin"
+     -->
+	<Button
+	    android:id="@+id/top"
+		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+				android:background="@drawable/bg_1"
+				android:layout_alignParentTop="true"
+		        />
+<!-- 
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/top"
+        android:layout_above="@+id/bottom"
+         >
+-->
+ 		<!-- android:layout_centerInParent="true" -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+             
+             <Button
+		        android:id="@+id/main_btn_second"
+		        style="@style/main_ui_btn"
+		        android:layout_centerInParent="true"
+		        android:background="@drawable/button_selector_pink"
+		        android:text="@string/main_second_btn" />
+          
+            <Button
+		        android:id="@+id/main_btn_first"
+		        android:text="@string/main_first_btn" 
+				style="@style/main_ui_btn"
+				android:background="@drawable/button_selector_blue"
+				android:layout_above="@+id/main_btn_second"
+		        />
+            
+		    <Button
+		        android:id="@+id/main_btn_third"
+		        android:text="@string/main_third_btn" 
+		        style="@style/main_ui_btn"
+		        android:background="@drawable/button_selector_green"
+		        android:layout_below="@+id/main_btn_second"
+		        />
+		    <!-- 
+		    <Button
+		        android:id="@+id/main_btn_fourth"
+		        android:text="@string/main_fourth_btn" 
+		        style="@style/main_ui_btn"
+		        android:background="@drawable/button_selector_purple"
+		        android:layout_below="@+id/main_btn_third"
+		        />
+		     -->
+        </RelativeLayout>
+<!--       
+    </ScrollView>
+-->  
+    <Button
+        android:id="@+id/bottom"
+		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+				android:background="@drawable/bg_2"
+				android:layout_alignParentBottom="true"
+		        />
+
+</RelativeLayout>

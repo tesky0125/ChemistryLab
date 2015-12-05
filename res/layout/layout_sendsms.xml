@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_sendsms"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:background="@color/transparent"
+	android:visibility="gone"
+	>
+
+    <Button
+        android:id="@+id/btn_send"
+        android:text="@string/sms_send" 
+        style="@style/send_btn"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_selector_sendsms"/>
+    
+    <Button
+        android:id="@+id/btn_checkall"
+        android:text="@string/sms_checkall" 
+        style="@style/send_btn"
+        android:layout_toLeftOf="@+id/btn_send"
+        android:background="@drawable/button_selector_sendsms"/>
+
+    
+    <Button
+        android:id="@+id/btn_cancelsms"
+        android:text="@string/sms_cancel" 
+        style="@style/send_btn"
+        android:layout_toRightOf="@+id/btn_send"
+		android:background="@drawable/button_selector_sendsms"/>
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_prop_leakemmeans" android:layout_width="match_parent"
+	android:layout_height="wrap_content" android:shrinkColumns="*"
+	android:stretchColumns="*" android:padding="5dp" android:background="@color/white">
+	<TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_leakemmeans_second"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow2" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_leakemmeans_third"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_leakemmeans_third" android:layout_column="1"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow3" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_leakemmeans_fourth"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_leakemmeans_fourth"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow3" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_leakemmeans_fifth"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_leakemmeans_fifth"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow3" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_leakemmeans_sixth"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow4" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_leakemmeans_seventh"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_leakemmeans_seventh" android:layout_column="1"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow5" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_leakemmeans_eighth"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_leakemmeans_eighth"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow5" android:layout_height="wrap_content" android:padding="2dp"
+		android:layout_width="match_parent" android:layout_marginTop="5dp">
+		<TextView android:id="@+id/TextView01" android:text="@string/prop_leakemmeans_ninth"
+			style="@style/style_chm_info"></TextView>
+		<TextView android:text="" android:id="@+id/prop_leakemmeans_ninth"
+			style="@style/style_chm_info"></TextView>
+	</TableRow>
+
+</TableLayout>    
